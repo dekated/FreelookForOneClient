@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "freelook",
+  "name": "Freelook",
+  "version": "${version}",
+  "environment": "client",
+  "description": "Hold or toggle a key to look around your player in third person while you keep facing, moving and aiming the way you were.",
+  "authors": [
+    "dekated"
+  ],
+  "entrypoints": {
+    "client": [
+      "dev.dekated.freelook.FreelookMod"
+    ]
+  },
+  "license": "MIT",
+  "mixins": [
+    "freelook.mixins.json"
+  ]
+}
