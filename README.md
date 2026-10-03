@@ -4,6 +4,9 @@ A freelook mod for [OneClient](https://polyfrost.org/projects/oneclient) (Minecr
 
 Hold or toggle a key to swing the camera around your player in third person while your movement, aiming and the rotation sent to the server stay exactly where they were. Let go and the view snaps back, same idea as Lunar's and Badlion's freelook.
 
+> [!CAUTION]
+> If you have OneClient's **BehindYou** mod with **SnapLook** enabled, it fights Freelook for control of the camera and breaks it. Turn off BehindYou (or its SnapLook feature) while using Freelook.
+
 ## Settings (OneConfig)
 
 - **Mode**: Hold or Toggle
