@@ -4,6 +4,7 @@ import java.util.function.Consumer;
 
 import org.polyfrost.oneconfig.api.config.v1.Config;
 import org.polyfrost.oneconfig.api.config.v1.annotations.Dropdown;
+import org.polyfrost.oneconfig.api.config.v1.annotations.Info;
 import org.polyfrost.oneconfig.api.config.v1.annotations.Keybind;
 import org.polyfrost.oneconfig.api.config.v1.annotations.Slider;
 import org.polyfrost.oneconfig.api.config.v1.annotations.Switch;
@@ -16,6 +17,9 @@ import org.polyfrost.oneconfig.internal.legacy.InputConstants;
  * the usual Enabled / Reset Mod controls.
  */
 public class FreelookConfig extends Config {
+
+    @Info(title = "Made by @wuwster", description = "Freelook for OneClient")
+    public boolean credit = true;
 
     @Keybind(title = "Freelook Key", description = "Hold or toggle this to look around your player.")
     public OneConfigKeybind key = KeybindHelper.builder()
